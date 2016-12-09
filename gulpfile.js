@@ -40,7 +40,7 @@ gulp.task('html', ['pug', 'sass', 'js'], () => {
       ignore: ['is-active']
     })))
     .pipe($.if('*.css', $.cleanCss()))
-    .pipe($.if('*.js', $.uglify()))
+    // .pipe($.if('*.js', $.uglify()))
     .pipe(gulp.dest('dist'));
 });
 
