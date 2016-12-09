@@ -1,0 +1,6 @@
+{
+  "name": "dradding-polygons",
+  "dependencies": {
+    "normalize-css": "*"
+  }
+}
