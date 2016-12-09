@@ -1,5 +1,5 @@
 {
-  "name": "dradding-polygons",
+  "name": "drag-circles",
   "dependencies": {
     "normalize-css": "*"
   }

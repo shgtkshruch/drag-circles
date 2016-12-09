@@ -1,7 +1,10 @@
 extends layout
 
 block title
-  title dradding-polygons
+  title drag circles
 
 block body
-  h1 Create your site
+  label
+    input#edit(type="checkbox")
+    | edit mode
+  canvas#canvas(width="500" height="500")
